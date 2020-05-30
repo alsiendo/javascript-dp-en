@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 350;
+  color: #444;
+  background-color: rgb(246, 255, 255);
+}
+
+/* ! General */
+/* ? Line */
+/* ? Line */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+#navbar {
+  width: 30vw;
+  height: 100vh;
+  background-color: #8eceec;
+}
+
+#myLinks {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#myLinks * {
+  margin: 10px 0 0 40px;
+  color: #fff;
+}
+
+#main-doc {
+  overflow-y: scroll;
+}
+
+#navbar ul {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 1.2rem;
+  list-style: none;
+  border-bottom: 1px solid black;
+  background-color: rgb(246, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar ul li {
+  padding: 0.2rem 0px;
+  border-bottom: 2px solid rgb(200, 238, 255);
+}
+
+#navbar .nav-link:hover {
+  color: teal;
+}
+
+#navbar #title {
+  font-size: 1.2rem;
+  padding-left: 2%;
+}
+
+#main-doc {
+  padding: 0 20px;
+}
+
+#main-doc section {
+  padding: 20px 8vw;
+}
+
+header {
+  font-size: 1.5em;
+  padding-bottom: 15px;
+  font-weight: 520;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+#main-doc ul {
+  padding-left: 30px;
+}
+
+.bborder {
+  border-bottom: 2px solid rgb(149, 208, 235);
+}
+
+dt {
+  font-weight: 500;
+}
+
+dd {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#title {
+  color: white;
+  font-weight: 300;
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+
+.icon {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+@media (max-width: 1400px) {
+  body {
+    display: block;
+    overflow: scroll;
+  }
+  #navbar {
+    width: 100vw;
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  #myLinks {
+    width: 100vw;
+    height: 300px;
+  }
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript | Documentation</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header id="title">JavaScript Documentation</header>
+      <div id="myLinks">
+        <a href="#JavaScript" class="nav-link">JavaScript</a>
+        <a href="#Function_Properties" class="nav-link">Function Properties</a>
+        <a href="#Fundamental_Objects" class="nav-link">Fundamental Objects</a>
+        <a href="#Numbers_and_Dates" class="nav-link">Numbers and Dates</a>
+        <a href="#Text_Processing" class="nav-link">Text Processing</a>
+        <a href="#Structured_Data" class="nav-link">Structured Data</a>
+        <a href="#Control_Flow" class="nav-link">Control Flow</a>
+        <a href="#Declaration" class="nav-link">Declaration</a>
+        <a href="#Function_and_Classes" class="nav-link"
+          >Function and Classes</a
+        >
+        <a href="#Examples" class="nav-link">Examples</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <main id="main-doc">
+      <section id="JavaScript" class="main-section">
+        <header><span class="bborder">JavaScript</span></header>
+        <p>
+          This part of the JavaScript section on MDN serves as a repository of
+          facts about the JavaScript language. Read more about this reference.
+        </p>
+        <p>
+          This chapter documents all the JavaScript standard built-in objects,
+          along with their methods and properties.
+        </p>
+      </section>
+      <section id="Function_Properties" class="main-section">
+        <header><span class="bborder">Function Properties</span></header>
+        <p>
+          These global functions—functions which are called globally rather than
+          on an object—directly return their results to the caller.
+        </p>
+        <ul>
+          <li><a href="#">eval()</a></li>
+          <li><a href="#">uneval()</a></li>
+          <li><a href="#">isFinite()</a></li>
+          <li><a href="#">isNaN()</a></li>
+          <li><a href="#">parseFloat()</a></li>
+          <li><a href="#">parseInt()</a></li>
+          <li><a href="#">decodeURI()</a></li>
+          <li><a href="#">decodeURIComponent()</a></li>
+          <li><a href="#">encodeURI()</a></li>
+          <li><a href="#">encodeURIComponent()</a></li>
+          <li><a href="#">escape()</a></li>
+          <li><a href="#">unescape()</a></li>
+        </ul>
+      </section>
+      <section id="Fundamental_Objects" class="main-section">
+        <header><span class="bborder">Fundamental Objects</span></header>
+        <p>
+          These are the fundamental, basic objects upon which all other objects
+          are based. This includes objects that represent general objects,
+          functions, and errors.
+        </p>
+        <ul>
+          <li><a href="#">Object</a></li>
+          <li><a href="#">Function</a></li>
+          <li><a href="#">Boolean</a></li>
+          <li><a href="#">Symbol</a></li>
+          <li><a href="#">Error</a></li>
+          <li><a href="#">EvalError</a></li>
+          <li><a href="#">InternalError</a></li>
+          <li><a href="#">RangeError</a></li>
+          <li><a href="#">ReferenceError</a></li>
+          <li><a href="#">SyntaxError</a></li>
+          <li><a href="#">TypeError</a></li>
+          <li><a href="#">URIError</a></li>
+        </ul>
+      </section>
+      <section id="Numbers_and_Dates" class="main-section">
+        <header><span class="bborder">Numbers and Dates</span></header>
+        <p>
+          These are the base objects representing numbers, dates, and
+          mathematical calculations.
+        </p>
+        <ul>
+          <li><a href="#">Number</a></li>
+          <li><a href="#">Math</a></li>
+          <li><a href="#">Date</a></li>
+        </ul>
+      </section>
+      <section id="Text_Processing" class="main-section">
+        <header><span class="bborder">Text Processing</span></header>
+        <p>These objects represent strings and support manipulating them.</p>
+        <ul>
+          <li><a href="#">String</a></li>
+          <li><a href="#">RegExp</a></li>
+        </ul>
+      </section>
+      <section id="Structured_Data" class="main-section">
+        <header><span class="bborder">Structured Data</span></header>
+        <p>
+          These objects represent and interact with structured data buffers and
+          data coded using JavaScript Object Notation (JSON).
+        </p>
+        <ul>
+          <li><a href="#">ArrayBuffer</a></li>
+          <li><a href="#">SharedArrayBuffer</a></li>
+          <li><a href="#">Atomics</a></li>
+          <li><a href="#">DataView</a></li>
+          <li><a href="#">JSON</a></li>
+        </ul>
+      </section>
+      <section id="Control_Flow" class="main-section">
+        <header><span class="bborder">Control Flow</span></header>
+        <dl>
+          <dt><a href="#">Block</a></dt>
+          <dd>
+            A block statement is used to group zero or more statements. The
+            block is delimited by a pair of curly brackets.
+          </dd>
+          <dt><a href="#">break</a></dt>
+          <dd>
+            Terminates the current loop, switch, or label statement and
+            transfers program control to the statement following the terminated
+            statement.
+          </dd>
+          <dt><a href="#">continue</a></dt>
+          <dd>
+            Terminates execution of the statements in the current iteration of
+            the current or labeled loop, and continues execution of the loop
+            with the next iteration.
+          </dd>
+          <dt><a href="#">Empty</a></dt>
+          <dd>
+            An empty statement is used to provide no statement, although the
+            JavaScript syntax would expect one.
+          </dd>
+          <dt><a href="#">if...else</a></dt>
+          <dd>
+            Executes a statement if a specified condition is true. If the
+            condition is false, another statement can be executed.
+          </dd>
+          <dt><a href="#">switch</a></dt>
+          <dd>
+            Evaluates an expression, matching the expression's value to a case
+            clause, and executes statements associated with that case.
+          </dd>
+          <dt><a href="#">throw</a></dt>
+          <dd>Throws a user-defined exception.</dd>
+          <dt><a href="#">try...catch</a></dt>
+          <dd>
+            Marks a block of statements to try, and specifies a response, should
+            an exception be thrown.
+          </dd>
+        </dl>
+      </section>
+      <section id="Declaration" class="main-section">
+        <header><span class="bborder">Declaration</span></header>
+        <dl>
+          <dt><a href="#">var</a></dt>
+          <dd>Declares a variable, optionally initializing it to a value.</dd>
+          <dt><a href="#">let</a></dt>
+          <dd>
+            Declares a block scope local variable, optionally initializing it to
+            a value.
+          </dd>
+          <dt><a href="#">const</a></dt>
+          <dd>Declares a read-only named constant.</dd>
+        </dl>
+      </section>
+      <section id="Function_and_Classes" class="main-section">
+        <header><span class="bborder"> Function and Classes</span></header>
+        <dl>
+          <dt><a href="#">function</a></dt>
+          <dd>Declares a function with the specified parameters.</dd>
+          <dt><a href="#">function*</a></dt>
+          <dd>Generator Functions enable writing iterators more easily.</dd>
+          <dt><a href="#">async function</a></dt>
+          <dd>Declares an async function with the specified parameters.</dd>
+          <dt><a href="#">return</a></dt>
+          <dd>Specifies the value to be returned by a function.</dd>
+          <dt><a href="#">class</a></dt>
+          <dd>Declares a class.</dd>
+        </dl>
+      </section>
+      <section id="Examples" class="main-section">
+        <header><span class="bborder">Examples</span></header>
+        <p>
+          <code
+            >&lt;<b>script</b> type="text/javascript"&gt;<br />
+            document.write("JavaScript is a simple language for javatpoint
+            learners");<br />&lt;<b>/script</b>&gt;</code
+          >
+        </p>
+        <p>
+          <code
+            >&lt;<b>script</b> type="text/javascript"&gt;<br />
+            alert("Hello Javatpoint"); <br />&lt;<b>/script</b>&gt;</code
+          >
+        </p>
+        <p>
+          <code
+            >&lt;<b>script</b> type="text/javascript"&gt;<br />
+            function msg(){ alert("Hello Javatpoint");}<br />&lt;<b>/script</b>&gt;</code
+          >
+        </p>
+        <p>
+          <code
+            >&lt;<b>script</b> type="text/javascript"&gt;<br />
+            var divs = new Array(); <br />divs[0] = "errFirst"; <br />divs[1] =
+            "errLast"; <br />divs[2] = "errEmail";<br />&lt;<b>/script</b>&gt;</code
+          >
+        </p>
+        <p>
+          <code
+            >&lt;<b>script</b> type="text/javascript"&gt;<br />
+            var errMessage = errors[i];
+            <br />var div = divs[i];<br />&lt;<b>/script</b>&gt;</code
+          >
+        </p>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

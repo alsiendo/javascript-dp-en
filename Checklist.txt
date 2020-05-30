@@ -1,0 +1,20 @@
+https://devdocs.io/javascript/
+<nav id=navbar> --> 
+<header> --> describe the topics of the documentation []
+<ul> link to each section with class="nav-link
+
+id="main-doc"
+	class=main-section"	id="Something_that_describe_the_content"
+	class=main-section"	id="Something_that_describe_the_content"
+	class=main-section"	id="Something_that_describe_the_content"
+	class=main-section"	id="Something_that_describe_the_content"
+	class=main-section"	id="Something_that_describe_the_content"
+
+
+<p> minimum 10 times within the main-section
+<code> minimum 5X times within the main-section
+<li> minimum 5 times within the main-section
+<header> minimum 1 times within the main-section--> describe the topics of the section
+
+
+Viewport --> laptops, desktops,   id="navbar" should on the left side of the screen (always visible)
